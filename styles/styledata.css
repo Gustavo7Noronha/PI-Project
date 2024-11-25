@@ -9,7 +9,7 @@ body {
     );
   }
 
-.form {
+.formaside {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +24,7 @@ body {
     border-radius: 10px;
 }
 
-.form h1{
+.formaside h1{
     font-size: 50px;
     font-weight: 700;
     padding-bottom: 30px;
@@ -36,4 +36,23 @@ body {
     max-width: 800px;
     justify-content: center;
     align-items: center;
+}
+
+.field input{
+  width: 400px;
+  border-radius: 20px;
+  padding: 8px 20px 8px 20px;
+  
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  
+}
+
+.submitbtt {
+  
 }
